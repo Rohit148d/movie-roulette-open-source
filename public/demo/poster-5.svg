@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 750" role="img" aria-label="Demo poster, stage spotlight">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#120f0b"/><stop offset="1" stop-color="#050506"/></linearGradient>
+    <radialGradient id="spot" cx="50%" cy="35%" r="55%"><stop stop-color="#ffe6b0" stop-opacity=".55"/><stop offset=".6" stop-color="#e7b96f" stop-opacity=".12"/><stop offset="1" stop-color="#e7b96f" stop-opacity="0"/></radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2"/><feColorMatrix type="saturate" values="0"/></filter>
+  </defs>
+  <rect width="500" height="750" fill="url(#bg)"/>
+  <ellipse cx="250" cy="260" rx="300" ry="260" fill="url(#spot)"/>
+  <g stroke="#e7b96f" stroke-opacity=".26"><path d="M20 0l180 500M480 0L300 500M100 0l130 460M400 0L270 460"/></g>
+  <rect x="0" y="500" width="500" height="250" fill="#08080a"/>
+  <g fill="none" stroke="#e7b96f" stroke-opacity=".35">
+    <path d="M90 520q60-70 160-40t160 20"/>
+    <path d="M60 560q80-50 180-20t200 30"/>
+  </g>
+  <g fill="#e7b96f" font-family="Arial, sans-serif">
+    <text x="130" y="650" fill="#f3e9d7" font-family="Georgia, serif" font-size="15" letter-spacing="4">A MOVIE ROULETTE DEMO</text>
+    <text x="150" y="680" fill="#7d7466" font-size="9" letter-spacing="3">SMALL HOURS · REEL 05</text>
+  </g>
+  <rect width="500" height="750" filter="url(#grain)" opacity=".05"/>
+</svg>

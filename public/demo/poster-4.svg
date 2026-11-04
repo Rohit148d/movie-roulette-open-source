@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 750" role="img" aria-label="Demo poster, iron orchard">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#2a0d09"/><stop offset=".5" stop-color="#140807"/><stop offset="1" stop-color="#050404"/></linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f2a65a" stop-opacity=".7"/><stop offset="1" stop-color="#a33a2f" stop-opacity="0"/></linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <rect width="500" height="750" fill="url(#bg)"/>
+  <circle cx="250" cy="380" r="160" fill="url(#sun)" filter="url(#soft)"/>
+  <circle cx="250" cy="380" r="72" fill="#c05537" opacity=".45"/>
+  <g stroke="#0b0504" stroke-width="10" stroke-linecap="round">
+    <path d="M250 740V440M250 540l-120-80M250 500l130-70M250 610l-90-50"/>
+  </g>
+  <g fill="#0b0504">
+    <circle cx="128" cy="458" r="34"/><circle cx="382" cy="428" r="28"/><circle cx="158" cy="558" r="24"/>
+  </g>
+  <path d="M0 640h500" stroke="#a33a2f" stroke-opacity=".4"/>
+  <g fill="#e7b96f" font-family="Arial, sans-serif">
+    <text x="40" y="690" fill="#f1ddd0" font-family="Georgia, serif" font-size="15" letter-spacing="4">A MOVIE ROULETTE DEMO</text>
+    <text x="40" y="718" fill="#8e6c60" font-size="9" letter-spacing="3">IRON ORCHARD · REEL 04</text>
+  </g>
+</svg>

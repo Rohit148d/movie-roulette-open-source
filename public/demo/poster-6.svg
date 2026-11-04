@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 750" role="img" aria-label="Demo poster, desert horizon">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#2b1208"/><stop offset=".55" stop-color="#a54a25"/><stop offset=".68" stop-color="#e6a35d"/><stop offset="1" stop-color="#f4c789"/></linearGradient>
+    <linearGradient id="sand" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#391a0d"/><stop offset="1" stop-color="#0a0504"/></linearGradient>
+  </defs>
+  <rect width="500" height="750" fill="url(#sky)"/>
+  <circle cx="340" cy="470" r="58" fill="#ffe3ae" opacity=".9"/>
+  <path d="M0 520c90-30 150 10 230-20s180 20 270-10v80H0z" fill="#4a2110"/>
+  <path d="M0 560c120-40 200 20 300-10s140 0 200-20v220H0z" fill="url(#sand)"/>
+  <g stroke="#1b0c06" stroke-opacity=".8" fill="none" stroke-width="2">
+    <path d="M80 750c30-70 50-110 20-160M100 750c10-60 40-100 90-130M410 750c-20-60-10-100 40-140"/>
+  </g>
+  <g fill="#e7b96f" font-family="Arial, sans-serif">
+    <text x="40" y="670" fill="#f7ecd8" font-family="Georgia, serif" font-size="15" letter-spacing="4">A MOVIE ROULETTE DEMO</text>
+    <text x="40" y="698" fill="#a88a6d" font-size="9" letter-spacing="3">RED MERIDIAN · REEL 06</text>
+  </g>
+</svg>
